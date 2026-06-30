@@ -6,7 +6,6 @@ variable "vpc_cidr" {
 variable "project_name" {
   description = "The name of the project"
   type        = string
-  default = "tier-app"
 }
 
 variable "public_subnets" {

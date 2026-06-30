@@ -1,4 +1,4 @@
-resource "aws_security_group" "sg" {
+resource "aws_security_group" "sg_name" {
   name        = var.sg_name
   description = "Security group for ${var.sg_name}"
   vpc_id      = var.vpc_id
