@@ -33,5 +33,5 @@ module "s3" {
 
 module "terraform_state_file" {
   source = "./modules/s3"
-  bucket_name = ""
+  bucket_name = "${var.project_name}-tf-state"
 }
